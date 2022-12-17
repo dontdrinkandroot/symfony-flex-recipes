@@ -1,0 +1,29 @@
+{
+    "manifests": {
+        "dontdrinkandroot/doctrine-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\DoctrineBundle\\DdrDoctrineBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/tks_doctrine.yaml": {
+                    "contents": [
+                        "doctrine:",
+                        "    dbal:",
+                        "        types:",
+                        "            bigint: Dontdrinkandroot\\DoctrineBundle\\Type\\BigInt64Type",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "87b71cc95e6139909a888edcd9acee489fddf3db"
+        }
+    }
+}
