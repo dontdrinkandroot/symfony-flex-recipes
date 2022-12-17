@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "dontdrinkandroot/doctrine-bundle": [
+            "0.3"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/dontdrinkandroot/symfony-flex-recipes",
+        "origin_template": "{package}:{version}@github.com/dontdrinkandroot/symfony-flex-recipes:main",
+        "recipe_template": "https://api.github.com/repos/dontdrinkandroot/symfony-flex-recipes/contents/{package}/{version}.json"
+    }
+}
