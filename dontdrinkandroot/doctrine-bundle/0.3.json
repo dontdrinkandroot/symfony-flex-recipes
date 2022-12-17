@@ -12,7 +12,7 @@
                 }
             },
             "files": {
-                "config/packages/tks_doctrine.yaml": {
+                "config/packages/ddr_doctrine.yaml": {
                     "contents": [
                         "doctrine:",
                         "    dbal:",
