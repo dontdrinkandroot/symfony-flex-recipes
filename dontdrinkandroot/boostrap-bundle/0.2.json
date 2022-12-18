@@ -1,0 +1,33 @@
+{
+    "manifests": {
+        "dontdrinkandroot/bootstrap-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\BootstrapBundle\\DdrBootstrapBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/ddr_bootstrap.yaml": {
+                    "contents": [
+                        "twig:",
+                        "    form_themes: ['@DdrBootstrap/Form/bootstrap_5_horizontal_layout.html.twig']",
+                        "",
+                        "knp_paginator:",
+                        "    template:",
+                        "        pagination: '@KnpPaginator/Pagination/bootstrap_v5_pagination.html.twig'",
+                        "        sortable: '@KnpPaginator/Pagination/bootstrap_v5_filtration.html.twig'",
+                        "        filtration: '@KnpPaginator/Pagination/bootstrap_v5_fa_sortable_link.html.twig",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "578cf6b518be2636ae84196996d7cc75e7121c35"
+        }
+    }
+}

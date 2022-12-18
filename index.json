@@ -1,5 +1,8 @@
 {
     "recipes": {
+        "dontdrinkandroot/bootstrap-bundle": [
+            "0.2"
+        ]
         "dontdrinkandroot/doctrine-bundle": [
             "0.3"
         ]
