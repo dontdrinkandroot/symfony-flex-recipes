@@ -7,20 +7,14 @@ Symfony Flex recipes for dontdrinkandroot/* packages.
 
 ```json
 {
-    ...
     "extra": {
-        ...
         "symfony": {
-            ...
             "endpoint": [
                 "https://api.github.com/repos/dontdrinkandroot/symfony-flex-recipes/contents/index.json",
                 "flex://defaults"
             ]
-            ...
-        },
-        ...
+        }
     }
-    ...
 }
 ```
 
