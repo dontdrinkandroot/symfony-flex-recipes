@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "dontdrinkandroot/bridge-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\BridgeBundle\\DdrBridgeBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "recipe/bin/": "%BIN_DIR%",
+                    "recipe/config/": "%CONFIG_DIR%",
+                    "recipe/src/": "%SRC_DIR%",
+                    "recipe/public/": "%PUBLIC_DIR%",
+                    "recipe/docker/": "docker/",
+                    "recipe/templates/": "templates/",
+                    "recipe/.gitlab-ci.yml": ".gitlab-ci.yml",
+                    "recipe/psalm.xml": "psalm.xml",
+                    "recipe/assets/": "assets/"
+                }
+            },
+            "files": {
+            },
+            "ref": "2107b37eab8e6a855725e9887b4d18685295f8d7"
+        }
+    }
+}
