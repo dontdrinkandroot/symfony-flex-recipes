@@ -17,9 +17,13 @@
                     "recipe/.gitlab-ci.yml": ".gitlab-ci.yml",
                     "recipe/psalm.xml": "psalm.xml",
                     "recipe/assets/": "assets/"
-                }
-            },
-            "files": {
+                },
+                "gitignore": [
+                    "/.idea/**",
+                    "!/.idea/codeStyles/",
+                    "!/.idea/codeStyles/**",
+                    "/version.txt"
+                ]
             },
             "ref": "2107b37eab8e6a855725e9887b4d18685295f8d7"
         }
