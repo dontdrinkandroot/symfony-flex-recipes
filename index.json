@@ -1,5 +1,8 @@
 {
     "recipes": {
+        "dontdrinkandroot/api-platform-bundle": [
+            "0.2"
+        ],
         "dontdrinkandroot/bootstrap-bundle": [
             "0.2"
         ],

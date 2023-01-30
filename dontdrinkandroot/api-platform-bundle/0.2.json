@@ -1,0 +1,17 @@
+{
+    "manifests": {
+        "dontdrinkandroot/api-platform-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\ApiPlatformBundle\\DdrApiPlatformBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "recipe/config/": "%CONFIG_DIR%"
+                }
+            },
+            "ref": "1e44c08b16eff290f832b7763dc2390dd2833d2d"
+        }
+    }
+}
