@@ -12,19 +12,8 @@
                 }
             },
             "files": {
-                "config/packages/ddr_doctrine.yaml": {
-                    "contents": [
-                        "doctrine:",
-                        "    dbal:",
-                        "        types:",
-                        "            bigint: Dontdrinkandroot\\DoctrineBundle\\Type\\BigInt64Type",
-                        "            instant: Dontdrinkandroot\\DoctrineBundle\\Type\\InstantType",
-                        ""
-                    ],
-                    "executable": false
-                }
             },
-            "ref": "87b71cc95e6139909a888edcd9acee489fddf3db"
+            "ref": "02f064e485dbc3d00eaabc4fc72b21315c13091c"
         }
     }
 }
