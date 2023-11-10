@@ -7,27 +7,11 @@
                         "all"
                     ]
                 },
-                "copy-from-recipe": {
-                    "config/": "%CONFIG_DIR%"
+                "copy-from-package": {
+                    "recipe/config/": "%CONFIG_DIR%"
                 }
             },
-            "files": {
-                "config/packages/ddr_bootstrap.yaml": {
-                    "contents": [
-                        "twig:",
-                        "    form_themes: ['@DdrBootstrap/Form/bootstrap_5_horizontal_layout.html.twig']",
-                        "",
-                        "#knp_paginator:",
-                        "#    template:",
-                        "#        pagination: '@KnpPaginator/Pagination/bootstrap_v5_pagination.html.twig'",
-                        "#        sortable: '@KnpPaginator/Pagination/bootstrap_v5_fa_sortable_link.html.twig'",
-                        "#        filtration: '@KnpPaginator/Pagination/bootstrap_v5_filtration.html.twig'",
-                        ""
-                    ],
-                    "executable": false
-                }
-            },
-            "ref": "74232d7f0a2f834989f60b696bf67ed71c978587"
+            "ref": "c6527ae745e684c8607be5c67d4f911383e70ce3"
         }
     }
 }
