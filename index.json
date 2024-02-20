@@ -4,13 +4,19 @@
             "0.2"
         ],
         "dontdrinkandroot/bootstrap-bundle": [
-            "0.2"
+            "0.2",
+            "0.4"
         ],
         "dontdrinkandroot/bridge-bundle": [
-            "0.2"
+            "0.2",
+            "0.4"
+        ],
+        "dontdrinkandroot/crud-admin-bundle": [
+            "0.4"
         ],
         "dontdrinkandroot/doctrine-bundle": [
-            "0.3"
+            "0.3",
+            "0.4"
         ]
     },
     "branch": "main",

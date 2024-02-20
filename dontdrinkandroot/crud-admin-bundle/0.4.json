@@ -1,0 +1,19 @@
+{
+    "manifests": {
+        "dontdrinkandroot/crud-admin-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\DoctrineBundle\\DdrCrudAdminBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "recipe/config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            },
+            "ref": "2052284b9ed18879d125a8990f5c9b34777ff807"
+        }
+    }
+}

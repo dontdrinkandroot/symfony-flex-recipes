@@ -1,0 +1,17 @@
+{
+    "manifests": {
+        "dontdrinkandroot/bootstrap-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\BootstrapBundle\\DdrBootstrapBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "recipe/config/": "%CONFIG_DIR%"
+                }
+            },
+            "ref": "088f78920e6d63fa5f19349c7cb6cee65b8e5720"
+        }
+    }
+}

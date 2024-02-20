@@ -1,0 +1,19 @@
+{
+    "manifests": {
+        "dontdrinkandroot/doctrine-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\DoctrineBundle\\DdrDoctrineBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "recipe/config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            },
+            "ref": "8c7274ca9e0e91ea7e9a2732f34561026918a7ca"
+        }
+    }
+}
