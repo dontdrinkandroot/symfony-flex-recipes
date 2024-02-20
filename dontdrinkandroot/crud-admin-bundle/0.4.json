@@ -3,7 +3,7 @@
         "dontdrinkandroot/crud-admin-bundle": {
             "manifest": {
                 "bundles": {
-                    "Dontdrinkandroot\\DoctrineBundle\\DdrCrudAdminBundle": [
+                    "Dontdrinkandroot\\CrudAdminBundle\\DdrCrudAdminBundle": [
                         "all"
                     ]
                 },
