@@ -15,7 +15,7 @@
                     "recipe/docker/": "docker/",
                     "recipe/templates/": "templates/",
                     "recipe/.gitlab-ci.yml": ".gitlab-ci.yml",
-                    "recipe/psalm.xml": "psalm.xml",
+                    "recipe/phpstan.neon": "phpstan.neon",
                     "recipe/assets/": "assets/"
                 },
                 "gitignore": [
@@ -25,7 +25,7 @@
                     "/version.txt"
                 ]
             },
-            "ref": "9fa7d14a7d18094920afcef5edd33771e28f996c"
+            "ref": "522de2175f2989d6884dbbca0ec2e9e76fac5d1a"
         }
     }
 }
