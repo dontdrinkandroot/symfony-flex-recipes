@@ -16,7 +16,7 @@
                     "recipe/templates/": "templates/",
                     "recipe/.gitlab-ci.yml": ".gitlab-ci.yml",
                     "recipe/phpstan.neon": "phpstan.neon",
-                    "recipe/AGENTS.md": "AGENTS.MD",
+                    "recipe/AGENTS.md": "AGENTS.md",
                     "recipe/assets/": "assets/"
                 },
                 "gitignore": [
@@ -27,7 +27,7 @@
                     "/coverage/"
                 ]
             },
-            "ref": "513ceab8abdcd5e55eb057eff2e48c0a42b277f9"
+            "ref": "9c59814f53ceddcdd654825b0699c8ab5c0cff08"
         }
     }
 }
