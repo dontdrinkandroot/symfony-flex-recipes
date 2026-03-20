@@ -9,7 +9,8 @@
         ],
         "dontdrinkandroot/bridge-bundle": [
             "0.2",
-            "0.4"
+            "0.4",
+            "0.5"
         ],
         "dontdrinkandroot/crud-admin-bundle": [
             "0.4"

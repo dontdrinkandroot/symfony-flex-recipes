@@ -1,0 +1,33 @@
+{
+    "manifests": {
+        "dontdrinkandroot/bridge-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Dontdrinkandroot\\BridgeBundle\\DdrBridgeBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "recipe/bin/": "%BIN_DIR%",
+                    "recipe/config/": "%CONFIG_DIR%",
+                    "recipe/src/": "%SRC_DIR%",
+                    "recipe/public/": "%PUBLIC_DIR%",
+                    "recipe/docker/": "docker/",
+                    "recipe/templates/": "templates/",
+                    "recipe/.gitlab-ci.yml": ".gitlab-ci.yml",
+                    "recipe/phpstan.neon": "phpstan.neon",
+                    "recipe/AGENTS.md": "AGENTS.MD",
+                    "recipe/assets/": "assets/"
+                },
+                "gitignore": [
+                    "/.idea/**",
+                    "!/.idea/codeStyles/",
+                    "!/.idea/codeStyles/**",
+                    "/version.txt",
+                    "/coverage/"
+                ]
+            },
+            "ref": "513ceab8abdcd5e55eb057eff2e48c0a42b277f9"
+        }
+    }
+}
