@@ -24,10 +24,10 @@
                     "!/.idea/codeStyles/",
                     "!/.idea/codeStyles/**",
                     "/version.txt",
-                    "/coverage/"
+                    "/.coverage/"
                 ]
             },
-            "ref": "9c59814f53ceddcdd654825b0699c8ab5c0cff08"
+            "ref": "54c02ccbfd40d39ed23ebbcd78bfe23dc5cc8352"
         }
     }
 }
